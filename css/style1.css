@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+
+body{
+    margin: 0;
+    font-size: 16px;
+    background: #ffffff;    
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    outline: none;
+   
+}
+
+.custom-box {
+    max-width: 800px;
+    background: #0e0d0d;
+    margin:40px auto ;
+    padding: 30px;
+    border-radius:0px;
+}
+
+.home-box img{
+    height: 500px;
+    width: 740px;
+    margin-bottom: 5px; 
+    padding: 40px;
+
+}
+
+.container-fluid{
+    font-size:20px;
+    color: #ffffff;
+    font-weight:600;
+    padding-bottom: 5px;
+    line-height:25px;
+    text-align: left;
+
+}
+
+.custom-box {
+    max-width: 800px;
+    background: #0e0d0d;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 0px;
+}
+
+.resultado_certo{
+    background-color: green;
+    padding: 5px;
+    color: #FFF;
+    margin: 5px;
+}
+
+.resultado_errado{
+    background-color: red;
+    color: #FFF;
+    padding: 5px;
+    margin: 5px;
+}
+
+#validar {
+    position: center;
+}

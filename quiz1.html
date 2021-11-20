@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ1</title>
+    <link rel="stylesheet" href="css/style1.css"/>
+    <script src="jquery/jquery.js"></script>
+    <script src="js/scripts.js"></script>
+</head>
+<body>
+    <div class="home-box custom-box">
+     <img src="img/coronadesenho.gif">  
+    </div>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="question custom-box">
+                <form method="POST" id="awnser">
+                    <div>Como o COVID-19 é transmitido?</div><br>
+                    <p>
+                        <input type="radio" id="a" name="resposta" value="a">
+                        <label for="a">Usando Mascara</label>
+                    </p>
+
+                    <p>
+                        <input type="radio" id="b" name="resposta" value="b">
+                        <label for="b">Bebendo água suja</label>
+                    </p>
+
+                    <p>
+                        <input type="radio" id="c" name="resposta" value="c" data-resultado="true">
+                        <label for="c">Através de gotas que saem de sua boca e nariz </label>
+                    </p>
+
+                    <p>
+                        <input type="radio" id="d" name="resposta" value="d">
+                        <label for="d">Pegando Chuva</label>
+                    </p>
+
+                    <p>
+                        <input type="radio" id="e" name="resposta" value="e">
+                        <label for="e">Todas as respostas</label>
+                    </p>
+
+                    <input type="submit" id="validar"name="validar" value="Validar">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
